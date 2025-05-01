@@ -792,6 +792,10 @@ html {
         padding-top: 15%;
         flex-direction: column-reverse;
     }
+    .hero .content .row-hero {
+        padding-left: 0;
+        padding-right: 0;
+    }
     .hero h1 {
         font-size: 2rem;
     }
