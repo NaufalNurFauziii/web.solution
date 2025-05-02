@@ -79,7 +79,32 @@ html {
 .navbar .navbar-extra a:hover{
     color: var(--primary);
 }
+/* floating icon wa */
+.floating-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: rgba(0, 0, 255, 0.384);
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.floating-whatsapp img {
+    width: 60px;
+    height: 60px;
+}
+
+.floating-whatsapp:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
 /* hero section */
 .hero {
     min-height: 100vh;
